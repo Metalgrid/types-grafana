@@ -4,6 +4,7 @@ declare class TimeSeries {
   id: string;
   label: string;
   alias: string;
+  aliasEscaped: string;
   color: string;
   valueFormater: any;
   stats: any;
