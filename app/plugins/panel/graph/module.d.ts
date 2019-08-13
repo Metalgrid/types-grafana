@@ -11,6 +11,7 @@ declare class GraphCtrl extends MetricsPanelCtrl {
     hiddenSeries: any;
     seriesList: any;
     dataList: any;
+    dataFormat: any;
     annotations: any;
     alertState: any;
     annotationsPromise: any;

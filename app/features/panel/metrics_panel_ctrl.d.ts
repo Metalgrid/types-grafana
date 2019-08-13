@@ -30,6 +30,7 @@ declare class MetricsPanelCtrl extends PanelCtrl {
     issueQueries(datasource: any): any;
     handleQueryResult(result: any): void;
     handleDataStream(stream: any): void;
+    handleDataFrame(stream: any): void;
     setDatasource(datasource: any): void;
     getAdditionalMenuItems(): any[];
     explore(): void;

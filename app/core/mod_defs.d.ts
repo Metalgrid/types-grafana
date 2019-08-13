@@ -13,6 +13,7 @@ declare module "app/core/services/all" {
   export default json;
 }
 
-
-
-
+declare module "app/core/utils/ConfigProvider" {
+  function provideTheme(any): any
+  export {provideTheme}
+}

@@ -21,4 +21,7 @@ export declare class BackendSrv {
     search(query: any): any;
     getDashboard(type: any, slug: any): any;
     saveDashboard(dash: any, options: any): any;
+    resolveCancelerIfExists(requestId: any): any;
 }
+
+export function getBackendSrv(): BackendSrv;

@@ -38,6 +38,7 @@ import 'app/core/routes/routes';
 import './filters/filters';
 import coreModule from './core_module';
 import appEvents from './app_events';
+import TimeSeries from './time_series2';
 import {
   default as colors,
   OK_COLOR,
@@ -51,4 +52,4 @@ import { contextSrv } from './services/context_srv';
 import { KeybindingSrv } from './services/keybindingSrv';
 import { helpModal } from './components/help/help';
 import { updateLegendValues } from './time_series2';
-export { arrayJoin, coreModule, grafanaAppDirective, sideMenuDirective, navbarDirective, searchDirective, colorPicker, liveSrv, layoutSelector, switchDirective, infoPopover, Emitter, appEvents, dashboardSelector, queryPartEditorDirective, WizardFlow, colors, assignModelProperties, contextSrv, KeybindingSrv, helpModal, updateLegendValues };
+export { arrayJoin, coreModule, grafanaAppDirective, sideMenuDirective, navbarDirective, searchDirective, colorPicker, liveSrv, layoutSelector, switchDirective, infoPopover, Emitter, appEvents, dashboardSelector, queryPartEditorDirective, WizardFlow, colors, assignModelProperties, contextSrv, KeybindingSrv, helpModal, updateLegendValues, TimeSeries };

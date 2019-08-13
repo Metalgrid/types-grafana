@@ -1,11 +1,13 @@
 /// 
 import './editor_ctrl';
+
 export declare class AnnotationsSrv {
     private $rootScope;
     private $q;
     private datasourceSrv;
     private backendSrv;
     private timeSrv;
+    datasourcePromises: any;
     globalAnnotationsPromise: any;
     alertStatesPromise: any;
     /** @ngInject */

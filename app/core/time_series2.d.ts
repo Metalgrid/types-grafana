@@ -35,7 +35,7 @@ declare class TimeSeries {
   hideFromLegend(options: any): boolean;
 }
 
-declare function updateLegendValues(data: TimeSeries[], panel);
+declare function updateLegendValues(data: TimeSeries[], panel: any, height?: any);
 
 
 export { TimeSeries as default, updateLegendValues };
